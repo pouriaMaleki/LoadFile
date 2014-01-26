@@ -1,0 +1,27 @@
+{
+  "name": "Loader",
+  "version": "0.0.1-beta1",
+  "description": "(work in progress)",
+  "main": "scripts/js/lib/Loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "node ./node_modules/coffee-script/bin/cake build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pouriaMaleki/LoadFile.git"
+  },
+  "keywords": [
+    "DOM"
+  ],
+  "author": "pouriaMaleki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pouriaMaleki/LoadFile/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
